@@ -1,3 +1,16 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 :root {
   --primary-text-color: #757575;
   --second-text-color: #ffffff;
@@ -7,8 +20,20 @@
   --second-bg-color: #2f303a;
   --section-bg-color: #f5f4fa;
 }
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+  padding: 0px 15px;
+  outline: 3px solid teal;
+}
 /* Стили для index.html */
+
 /* Header */
+.nav-container {
+}
+.contacts-container {
+}
 .auth-nav .link {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -17,6 +42,7 @@
   letter-spacing: 0.02em;
 }
 body {
+  margin: 0;
   font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
   background-color: var(--primary-bg-color);
@@ -28,6 +54,8 @@ body {
   letter-spacing: 0.03em;
 }
 ul {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 .link {
@@ -39,6 +67,9 @@ ul {
   color: var(--accent-color);
 }
 /* logo */
+.logo-container p {
+  margin: 0;
+}
 .logo {
   font-family: Raleway;
   font-weight: 700;
@@ -66,10 +97,16 @@ ul {
   color: var(--accent-color);
 }
 /* Hero */
+.hero-container {
+}
 .hero {
+  margin-bottom: 94px;
   background-color: var(--second-bg-color);
+  align-items: center;
+  text-align: center;
 }
 .hero-title {
+  margin-bottom: 30px;
   color: var(--second-text-color);
   font-weight: 900;
   font-size: 44px;
@@ -80,23 +117,42 @@ ul {
 }
 /* Button */
 .primary-button {
+  padding: 10px 32px;
+  border-radius: 4px;
+  border: none;
+  min-width: 200px;
+  height: 50px;
   background-color: var(--accent-color);
   color: var(--second-text-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
+  outline: transparent;
+  cursor: pointer;
 }
+
 /* Sections */
 .hidden {
-  display: none;
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+.holder-container {
+}
+.team {
 }
 .section-holder {
+  padding: 94px 0px;
   background-color: var(--section-bg-color);
 }
+.section {
+  margin-bottom: 94px;
+}
 .section-title {
+  margin-bottom: 50px;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -105,7 +161,17 @@ ul {
   letter-spacing: 0.03em;
 }
 /* Features */
+.image {
+  display: block;
+}
+.features-container {
+  margin-bottom: 94px;
+}
+.features-list p {
+  margin: 0;
+}
 .features-list .title {
+  margin-bottom: 10px;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -113,7 +179,23 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.features-box p {
+  margin: 0;
+}
+.features-box li {
+  border-radius: 0px 0px 4px 4px;
+  background-color: var(--second-text-color);
+  width: 270px;
+  text-align: center;
+}
+.features-box .image {
+  margin-bottom: 30px;
+}
+.team p {
+  margin-bottom: 30px;
+}
 .features-box .title {
+  margin-bottom: 10px;
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -140,6 +222,9 @@ ul {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+.address-container p {
+  margin: 0;
+}
 .address-text {
   color: var(--second-text-color);
   font-style: normal;
@@ -161,11 +246,27 @@ ul {
   letter-spacing: 0.03em;
 }
 .item-title {
+  margin-bottom: 4px;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+}
+.picture {
+  display: block;
+  margin-bottom: 20px;
+}
+.item .description {
+  margin-bottom: 20px;
+}
+.main-items p {
+  margin: 0px;
+}
+.main-items > .item {
+  background-color: var(--primary-bg-color);
+  border: 1px solid #eeeeee;
+  width: 370px;
 }
 .main-items .link {
   color: var(--primary-text-color);
@@ -175,11 +276,21 @@ ul {
 .filter-list > .button:focus {
   color: var(--second-text-color);
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 .filter-list > .button {
+  padding: 6px 22px;
+  border-radius: 4px;
+  border: none;
+  min-width: 73px;
+  height: 38px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
+  outline: transparent;
+}
+.filter {
+  margin-bottom: 50px;
 }
