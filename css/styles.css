@@ -30,10 +30,20 @@ h6 {
 /* Стили для index.html */
 
 /* Header */
+
+.site-navigation {
+  display: flex;
+}
 .nav-container {
+  display: flex;
 }
-.contacts-container {
+.auth-nav {
+  display: flex;
 }
+.logo-container {
+  display: flex;
+}
+
 .auth-nav .link {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -83,6 +93,7 @@ ul {
 }
 /*Site-nav*/
 .site-nav {
+  display: flex;
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
