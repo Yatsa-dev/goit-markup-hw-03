@@ -30,21 +30,36 @@ h6 {
 /* Стили для index.html */
 
 /* Header */
-
+.site-contacts {
+}
 .site-navigation {
   display: flex;
+  justify-content: flex-start;
 }
 .nav-container {
   display: flex;
+  justify-content: center;
 }
 .auth-nav {
   display: flex;
 }
-.logo-container {
+.logo-container .nav-container {
   display: flex;
+  align-items: center;
+  ma
+}
+
+.logo-container {
+  justify-content: flex-end;
+  display: flex;
+  margin-top: 24px;
+  margin-bottom: 25px;
+  margin-right: 93px;
 }
 
 .auth-nav .link {
+    display: flex;
+  align-items: center;
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -77,6 +92,9 @@ ul {
   color: var(--accent-color);
 }
 /* logo */
+.logo-container > .logo {
+  align-items: center;
+}
 .logo-container p {
   margin: 0;
 }
@@ -226,6 +244,7 @@ ul {
   letter-spacing: 0.03em;
 }
 .logo-sub {
+  justify-content: flex-start;
   color: var(--second-text-color);
   font-family: Raleway;
   font-weight: 700;
