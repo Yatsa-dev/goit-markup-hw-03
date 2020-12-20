@@ -29,6 +29,7 @@ h6 {
 
   /* outline: 3px solid teal; */
 }
+
 /* Стили для index.html */
 
 /* Header */
@@ -155,6 +156,9 @@ ul {
   text-align: center;
 }
 .hero-title {
+  display: block;
+  width: 696px;
+  margin: auto;
   margin-bottom: 30px;
 
   color: var(--second-text-color);
