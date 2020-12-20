@@ -128,6 +128,7 @@ ul {
 .logo-part {
   color: var(--accent-color);
 }
+
 /*Site-nav*/
 .site-nav {
   display: flex;
@@ -347,7 +348,7 @@ ul {
 .filter {
   justify-content: center;
   display: flex;
-  /* margin-top: 94px; */
+  padding-top: 94px;
   padding-bottom: 50px;
 }
 .filter-list + .filter-list {
