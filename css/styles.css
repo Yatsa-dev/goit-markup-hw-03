@@ -150,7 +150,8 @@ ul {
 .hero-container {
 }
 .hero {
-  margin-bottom: 94px;
+  padding-bottom: 280px;
+  padding-top: 200px;
   background-color: var(--second-bg-color);
   align-items: center;
   text-align: center;
@@ -201,8 +202,12 @@ ul {
   padding: 94px 0px;
   background-color: var(--section-bg-color);
 }
-.section {
-  margin-bottom: 94px;
+.section-works {
+  padding-bottom: 94px;
+}
+.section-features {
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 .container > .about {
   margin-bottom: 0px;
@@ -282,17 +287,19 @@ ul {
   margin-bottom: 9px;
 }
 .logo-container .logo-sub {
-  margin-top: 60px;
   margin-bottom: 20px;
 }
 .items .footer-link:first-child {
   margin-bottom: 9px;
 }
-.items .footer-link:last-child {
+/* .items .footer-link:last-child {
   padding-bottom: 60px;
-}
+} */
 
 .footer {
+  padding-bottom: 60px;
+  padding-top: 60px;
+
   background-color: var(--second-bg-color);
 }
 .footer .item {
