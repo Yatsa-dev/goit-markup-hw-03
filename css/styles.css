@@ -335,9 +335,11 @@ ul {
   letter-spacing: 0.03em;
 }
 /*Стили для portfolio.html */
-.line-header {
+/* Line Header */
+.head-max {
   border-bottom: 1px solid #ececec;
 }
+/*Стили для portfolio.html */
 .main-items {
   display: flex;
   flex-wrap: wrap;
@@ -377,8 +379,6 @@ ul {
   letter-spacing: 0.03em;
 }
 .item-title {
-  margin: 0px 24px;
-  margin-bottom: 4px;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
@@ -399,10 +399,10 @@ ul {
   display: block;
   color: var(--primary-text-color);
 }
-.main-items .description {
-  margin: 0px 24px 20px;
-  padding: 0px;
+.filter-section {
+  padding: 20px 24px;
 }
+
 /* Button */
 .filter-list > .button:hover,
 .filter-list > .button:focus {
